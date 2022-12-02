@@ -1,0 +1,50 @@
+/*Main Component START*/
+body {
+  margin: 0;
+  width: 100vw;
+  height: 130vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vmin;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  font-size: 3vmin;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+.navLink {
+}
+.navLink:hover {
+  cursor: pointer;
+  color: lightgray;
+}
+.mainBody {
+  background-color: lightgray;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Main Component END*/
