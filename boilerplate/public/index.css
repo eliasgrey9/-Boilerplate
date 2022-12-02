@@ -20,21 +20,17 @@ nav {
 .navLinks {
   display: flex;
   justify-content: space-evenly;
-  width: 40vw;
+  width: 60vw;
 }
 .navLink {
+  text-decoration: none;
+  color: white;
 }
 .navLink:hover {
   cursor: pointer;
   color: lightgray;
 }
-.mainBody {
-  background-color: lightgray;
-  height: 130vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 footer {
   background-color: black;
   color: white;
@@ -48,3 +44,30 @@ footer {
 }
 
 /*Main Component END*/
+/*Home Component START*/
+.homeBody {
+  background-color: lightgray;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Home Component END*/
+/*AboutComponent START*/
+.aboutBody {
+  background-color: lightgray;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*About Component END*/
+/*Contact Component START*/
+.contactBody {
+  background-color: lightgray;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Contact Component END*/

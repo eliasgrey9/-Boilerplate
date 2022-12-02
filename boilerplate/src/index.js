@@ -5,9 +5,10 @@ import { createRoot } from "react-dom/client";
 import Main from "./components/Main";
 import { Provider } from "react-redux";
 import store from "./store";
-
 import { BrowserRouter as Router } from "react-router-dom";
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const container = document.getElementById("root");
+const root = createRoot(container);
+// root for react and routers as well as redux
 root.render(
   <Provider store={store}>
     <Router>

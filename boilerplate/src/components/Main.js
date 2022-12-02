@@ -1,6 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
+import { NavLink, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
 const Main = () => {
   return (
     <div>
@@ -8,15 +10,23 @@ const Main = () => {
         <div>Logo</div>
 
         <div className="navLinks">
-          <NavLink to="/home">
-            <div className="navLink">Home</div>
+          <NavLink className="navLink" to="/">
+            Home
           </NavLink>
-
-          <div className="navLink">About</div>
-          <div className="navLink">Contact</div>
+          <NavLink className="navLink" to="/about">
+            About
+          </NavLink>
+          <NavLink className="navLink" to="/contact">
+            Contact
+          </NavLink>
+          <button>Login</button>
         </div>
       </nav>
-      <div className="mainBody">This is the main body</div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <footer>This is the main footer</footer>
     </div>
   );
