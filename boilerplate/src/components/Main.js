@@ -19,7 +19,7 @@ const Main = () => {
           <NavLink className="navLink" to="/contact">
             Contact
           </NavLink>
-          <button>Login</button>
+          <button className="loginBtn">Login</button>
         </div>
       </nav>
       <Routes>

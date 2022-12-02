@@ -9,7 +9,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2vmin;
-  background-color: black;
+  background-color: rgb(90, 88, 88);
   color: white;
   height: 10vh;
   font-size: 3vmin;
@@ -30,9 +30,20 @@ nav {
   cursor: pointer;
   color: lightgray;
 }
-
+.loginBtn {
+  padding: 0.5vmin;
+  width: 10vmin;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+}
+.loginBtn:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+}
 footer {
-  background-color: black;
+  background-color: rgb(90, 88, 88);
   color: white;
   height: 20vh;
   display: flex;
@@ -46,7 +57,7 @@ footer {
 /*Main Component END*/
 /*Home Component START*/
 .homeBody {
-  background-color: lightgray;
+  background-color: white;
   height: 130vh;
   display: flex;
   justify-content: center;
@@ -55,7 +66,7 @@ footer {
 /*Home Component END*/
 /*AboutComponent START*/
 .aboutBody {
-  background-color: lightgray;
+  background-color: white;
   height: 130vh;
   display: flex;
   justify-content: center;
@@ -64,7 +75,7 @@ footer {
 /*About Component END*/
 /*Contact Component START*/
 .contactBody {
-  background-color: lightgray;
+  background-color: white;
   height: 130vh;
   display: flex;
   justify-content: center;
